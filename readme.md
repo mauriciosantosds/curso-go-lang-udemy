@@ -11,3 +11,18 @@ depois:
 para rodar os scripts:
 
 ```go run main.go```
+
+comandos para teste go
+
+testa todo o projeto
+ ```go test ./...```
+
+mostra cobertura dos testes
+```go test --cover```
+gera arquivo com cobertura dos testes
+```go test --coverprofile cobertura.txt```
+```tool cover --func=cobertura.txt```
+gera html detalhado com cobertura dos testes
+```go tool cover --html=cobertura.txt```
+ mostra detalhes da cobertura do teste
+ ```go test -v```
